@@ -31,11 +31,11 @@ Sistemas assim são usados na vida real para diagnósticos médicos, aprovação
 
 1. Clone este repositório:
    ```bash
-   git clone [https://github.com/Lucas-Balduino/ProgrammingLanguageAkinator](https://github.com/Lucas-Balduino/ProgrammingLanguageAkinator.git)
+   git clone https://github.com/Lucas-Balduino/ProgrammingLanguageAkinator.git
 
 2. Navegue até a pasta do projeto:
     ```bash
-    cd NOME_DO_REPOSITORIO
+    cd ProgrammingLanguageAkinator
 
 3. Execute o script principal:
     ```bash
@@ -50,7 +50,7 @@ O projeto foi modularizado nas seguintes funções principais:
 * **`carregarArvore()`:** Tenta ler o arquivo JSON. Se for a primeira execução e o arquivo não existir, ele carrega a árvore de decisão inicial mapeada no código.
 * **`salvarArvore(arvore)`:** Recebe o dicionário atualizado com o novo aprendizado e o converte/salva em um arquivo `.json` estruturado.
 * **`akinatorLinguagens()`:** É o coração do jogo. Contém o motor de inferência (navegação pela árvore) e a rotina de aprendizado que pede a nova linguagem e a nova pergunta ao usuário em caso de erro.
-* **`resetar_memoria()`:** Utiliza a biblioteca `os` para deletar fisicamente o arquivo JSON, resetando o progresso do jogador.
+* **`resetarMemoria()`:** Utiliza a biblioteca `os` para deletar fisicamente o arquivo JSON, resetando o progresso do jogador.
 * **`menu_principal()`:** Interface de terminal que mantém o jogo rodando em um laço infinito até o usuário decidir sair.
 
 ---
