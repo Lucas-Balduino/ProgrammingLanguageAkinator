@@ -83,7 +83,7 @@ def salvarArvore(arvore):
     with open(arquivoMemoria, "w", encoding="utf-8") as arquivo:
         json.dump(arvore, arquivo, ensure_ascii=False, indent=4)
 
-def resetar_memoria():
+def resetarMemoria():
     if os.path.exists(arquivoMemoria):
         os.remove(arquivoMemoria)
         print("🧹 Memória apagada com sucesso! O Akinator voltou ao estado de fábrica.")
@@ -150,7 +150,7 @@ def menu_principal():
         if escolha == "1":
             akinatorLinguagens()
         elif escolha == "2":
-            resetar_memoria()
+            resetarMemoria()
         elif escolha == "3":
             print("👋 Até logo! Encerrando o programa...")
             break
