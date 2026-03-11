@@ -2,7 +2,7 @@
 # Recomendador de Linguagens
 
 def sistemaEspecialista():
-    arvore_decisao = {
+    arvoreDecisao = {
         "pergunta": "Você prefere linguagens onde é obrigatório declarar o tipo da variável (tipagem estática)?",
         "nao": {
             "pergunta": "Tem interesse em desenvolvimento web?",
@@ -19,3 +19,18 @@ def sistemaEspecialista():
             }   
         }
     }
+
+    nodoAtual = arvoreDecisao
+
+    while type(nodoAtual) == dict:
+        print(nodoAtual["pergunta"])
+       
+        resposta = input().lower().strip()
+    
+        if resposta not in ["sim","nao"]: 
+            print("Input inválido, responda com 'sim' ou 'nao'.")
+            continue
+            
+        nodoAtual = nodoAtual[resposta]
+
+    print("A sua linguagem é "+ nodoAtual)
