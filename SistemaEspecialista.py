@@ -136,7 +136,7 @@ def akinatorLinguagens():
         salvarArvore(arvoreDecisao)
         print("🧠 Obrigado! Cérebro atualizado com sucesso. Eu não errarei na próxima vez!")
 
-def menu_principal():
+def menuPrincipal():
     while True:
         print("\n" + "="*30)
         print("🤖 AKINATOR DE LINGUAGENS")
@@ -158,4 +158,4 @@ def menu_principal():
             print("⚠️ Opção inválida. Digite 1, 2 ou 3.")
 
 # Executa o jogo
-menu_principal()
+menuPrincipal()
