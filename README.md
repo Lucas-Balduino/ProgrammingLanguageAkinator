@@ -51,7 +51,7 @@ O projeto foi modularizado nas seguintes funções principais:
 * **`salvarArvore(arvore)`:** Recebe o dicionário atualizado com o novo aprendizado e o converte/salva em um arquivo `.json` estruturado.
 * **`akinatorLinguagens()`:** É o coração do jogo. Contém o motor de inferência (navegação pela árvore) e a rotina de aprendizado que pede a nova linguagem e a nova pergunta ao usuário em caso de erro.
 * **`resetarMemoria()`:** Utiliza a biblioteca `os` para deletar fisicamente o arquivo JSON, resetando o progresso do jogador.
-* **`menu_principal()`:** Interface de terminal que mantém o jogo rodando em um laço infinito até o usuário decidir sair.
+* **`menuPrincipal()`:** Interface de terminal que mantém o jogo rodando em um laço infinito até o usuário decidir sair.
 
 ---
 
