@@ -1,0 +1,69 @@
+{
+    "pergunta": "A linguagem (ou tecnologia) foi criada ANTES do ano de 1990?",
+    "sim": {
+        "pergunta": "Ela é focada exclusivamente em consultar e manipular bancos de dados?",
+        "sim": "SQL",
+        "nao": {
+            "pergunta": "É considerada a linguagem de mais baixo nível, usando mnemônicos mapeados diretamente para instruções de processador?",
+            "sim": "Assembly",
+            "nao": {
+                "pergunta": "Foi criada principalmente para aplicações de negócios, finanças e sistemas bancários de grande porte?",
+                "sim": "Cobol",
+                "nao": {
+                    "pergunta": "É uma linguagem baseada em lógica matemática, muito usada nos primórdios da Inteligência Artificial?",
+                    "sim": "Prolog",
+                    "nao": {
+                        "pergunta": "Foi desenvolvida especificamente para computação científica e engenharia de alto desempenho?",
+                        "sim": "Fortran",
+                        "nao": {
+                            "pergunta": "Ela possui suporte nativo a Orientação a Objetos (classes)?",
+                            "sim": "C++",
+                            "nao": "C"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "nao": {
+        "pergunta": "Essa tecnologia é usada exclusivamente para estruturar ou estilizar páginas web (sem lógica tradicional de programação)?",
+        "sim": {
+            "pergunta": "Ela é usada para dar estilo, cor e layout à página (ex: margens, fontes)?",
+            "sim": "CSS",
+            "nao": "HTML"
+        },
+        "nao": {
+            "pergunta": "Ela foi criada especificamente para rodar nativamente no navegador do usuário (Front-end)?",
+            "sim": {
+                "pergunta": "Essa linguagem é um superconjunto sintático estrito de JavaScript?",
+                "sim": "TypeScript",
+                "nao": "JavaScript"
+            },
+            "nao": {
+                "pergunta": "Ela é fortemente associada ao framework Flutter para criação de aplicativos móveis?",
+                "sim": "Dart",
+                "nao": {
+                    "pergunta": "Ela é mundialmente famosa por ser a base do ecossistema de jogos Unity?",
+                    "sim": "C#",
+                    "nao": {
+                        "pergunta": "Seu mascote é um gopher (esquilo) e foi criada pelo Google com foco em concorrência?",
+                        "sim": "Go",
+                        "nao": {
+                            "pergunta": "Ela é amplamente conhecida por focar em extrema segurança de memória sem usar 'garbage collector'?",
+                            "sim": "Rust",
+                            "nao": {
+                                "pergunta": "Sua principal fama inicial foi ser embutida no HTML para criar sites dinâmicos (é a base do WordPress)?",
+                                "sim": "PHP",
+                                "nao": {
+                                    "pergunta": "Ela usa tipagem dinâmica e obriga o uso de indentação (espaços) para definir blocos de código?",
+                                    "sim": "Python",
+                                    "nao": "Java"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
