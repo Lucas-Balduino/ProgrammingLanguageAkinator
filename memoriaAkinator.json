@@ -57,7 +57,11 @@
                                 "nao": {
                                     "pergunta": "Ela usa tipagem dinâmica e obriga o uso de indentação (espaços) para definir blocos de código?",
                                     "sim": "Python",
-                                    "nao": "Java"
+                                    "nao": {
+                                        "pergunta": "Ela foi criada como uma alternativa Open Source para análise estatística de dados?",
+                                        "sim": "R",
+                                        "nao": "Java"
+                                    }
                                 }
                             }
                         }
